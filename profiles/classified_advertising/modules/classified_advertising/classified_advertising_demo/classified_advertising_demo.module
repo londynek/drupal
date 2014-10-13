@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Classified Advertising Demo feature.
+ */
+
+include_once 'classified_advertising_demo.features.inc';

@@ -1,0 +1,40 @@
+name = Classified Advertising User
+description = Common components for User
+core = 7.x
+package = Classified Advertising
+version = 7.x-1.0
+project = classified_advertising_user
+dependencies[] = classified_advertising_common
+dependencies[] = ctools
+dependencies[] = email
+dependencies[] = features
+dependencies[] = realname
+dependencies[] = strongarm
+dependencies[] = text
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[field_base][] = field_email
+features[field_base][] = field_first_name
+features[field_base][] = field_last_name
+features[field_base][] = field_phone
+features[field_instance][] = user-user-field_email
+features[field_instance][] = user-user-field_first_name
+features[field_instance][] = user-user-field_last_name
+features[field_instance][] = user-user-field_phone
+features[variable][] = realname_pattern
+features[variable][] = user_register
+project path = profiles/classified_advertising/modules/classified_advertising
+
+; Information added by Drupal.org packaging script on 2014-08-09
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "classified_advertising"
+datestamp = "1407574729"
+
+
+; Information added by Drupal.org packaging script on 2014-10-05
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "classified_advertising"
+datestamp = "1412477631"
+

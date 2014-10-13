@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file
+ * classified_advertising_common.install
+ */
+
+/**
+ * Implements hook_install().
+ */
+function classified_advertising_common_install() {
+  // Prepare default image for community node type.
+  $comm_image_src_path = drupal_get_path('module', 'classified_advertising_common') . '/img/default-ad.jpg';
+  $comm_image_fid = _classified_advertising_common_put_default_image($comm_image_src_path, 'classified_advertising_common/default-ad.jpg', TRUE);
+  if ($comm_image_fid !== FALSE) {
+    variable_set('classified_advertising_common_default_ad_image_fid', $comm_image_fid);
+  }
+  drupal_flush_all_caches();
+}

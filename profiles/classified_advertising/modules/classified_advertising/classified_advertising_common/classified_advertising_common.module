@@ -1,0 +1,70 @@
+<?php
+/**
+ * @file
+ * Code for the Classified Advertising common feature.
+ */
+
+include_once 'classified_advertising_common.features.inc';
+
+// Private helper functions.
+/**
+ * Make sure default images live within public://default_images, because
+ * theme_image_style() can only run successfully within directories registered
+ * to a scheme. Note: default_images is the dir where image fields store their
+ * default images.
+ *
+ * $src_filepath: normal path+filename (not URI)
+ * $dest_filepath: path+filename at which to place file, within
+ * public://default_images. NO leading slash.
+ * $managed: boolean whether the file is to be managed via Drupal File API,
+ * i.e. saved to db
+ *
+ * @return
+ *   If $managed, the fid of $file saved to database, or FALSE on various
+ *   failures.
+ *   Else, the new filepath, as returned by file_unmanaged_copy(), or FALSE on
+ *   various failures.
+ */
+function _classified_advertising_common_put_default_image($src_filepath, $dest_filepath, $managed) {
+  // This is where image fields put their defaults.
+  $dir           = 'default_images';
+  $dest_filename = $dest_filepath;
+
+  // If $dest_filepath contains a directory and filename
+  // structure, pull it apart.
+  $slash = strrpos($dest_filepath, '/');
+  if ($slash !== FALSE) {
+    $dir .= ('/' . drupal_substr($dest_filepath, 0, $slash));
+    $dest_filename = drupal_substr($dest_filepath, $slash + 1);
+  }
+
+  // Function file_unmanaged_copy() calls file_prepare_directory()
+  // with default value for $options, which is only to update the permissions.
+  // Thus we ensure directory exists first.
+  $dir_uri = file_build_uri($dir);
+  file_prepare_directory($dir_uri, FILE_CREATE_DIRECTORY);
+
+  if (!$managed) {
+    return file_unmanaged_copy($src_filepath, $dir_uri . '/' . $dest_filename, FILE_EXISTS_REPLACE);
+  }
+  else {
+    // Function file_copy() takes a $file object as $source;
+    // passes $source->uri to file_unmanaged_copy(), thus it can be a path.
+    // Clones $source to save new $file to db (overwrites fid, uri, filename).
+    $source    = new stdClass();
+    $source->uri = $src_filepath;
+    $source->filemime = file_get_mimetype($src_filepath);
+    $source->status = FILE_STATUS_PERMANENT;
+    $dest_file = file_copy($source, $dir_uri . '/' . $dest_filename, FILE_EXISTS_REPLACE);
+    return $dest_file !== FALSE ? $dest_file->fid : FALSE;
+  }
+}
+
+/**
+ * Implements hook_field_default_field_instances_alter().
+ */
+function classified_advertising_common_field_default_field_instances_alter(&$fields) {
+  if (isset($fields['node-classified-field_ad_photos'])) {
+    $fields['node-classified-field_ad_photos']['settings']['default_image'] = variable_get('classified_advertising_common_default_ad_image_fid', 0);
+  }
+}

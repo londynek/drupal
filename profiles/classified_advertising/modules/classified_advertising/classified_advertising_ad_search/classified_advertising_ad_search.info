@@ -1,0 +1,60 @@
+name = Classified Advertising ad search
+description = Provides a ad search.
+core = 7.x
+package = Classified Advertising
+version = 7.x-1.0
+project = classified_advertising_ad_search
+dependencies[] = classified_advertising_ad
+dependencies[] = classified_advertising_common
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = current_search
+dependencies[] = entity
+dependencies[] = facetapi
+dependencies[] = facetapi_pretty_paths
+dependencies[] = search_api
+dependencies[] = search_api_db
+dependencies[] = search_api_facetapi
+dependencies[] = search_api_ranges
+dependencies[] = search_api_views
+dependencies[] = strongarm
+dependencies[] = views
+features[context][] = job_search_block
+features[context][] = job_search_facets
+features[ctools][] = context:context:3
+features[ctools][] = facetapi:facetapi_defaults:1
+features[ctools][] = strongarm:strongarm:1
+features[ctools][] = views:views_default:3.0
+features[facetapi][] = search_api@ad_search::field_ad_category
+features[facetapi][] = search_api@ad_search::field_ad_price
+features[facetapi][] = search_api@ad_search:block:author
+features[facetapi][] = search_api@ad_search:block:created
+features[facetapi][] = search_api@ad_search:block:field_ad_category
+features[facetapi][] = search_api@ad_search:block:field_ad_price
+features[facetapi][] = search_api@ad_search:block:field_location_taxonomize_terms
+features[facetapi][] = search_api@ad_search:block:search_api_language
+features[facetapi][] = search_api@ad_search:block:search_api_viewed
+features[facetapi][] = search_api@ad_search:block:status
+features[facetapi][] = search_api@ad_search:block:type
+features[features_api][] = api:2
+features[search_api_index][] = ad_search
+features[search_api_server][] = db_server
+features[variable][] = facetapi_pretty_paths_searcher_search_api@ad_search
+features[variable][] = facetapi_pretty_paths_searcher_search_api@ad_search_options
+features[views_view][] = ad_search
+project path = profiles/classified_advertising/modules/classified_advertising
+
+; Information added by Drupal.org packaging script on 2014-08-09
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "classified_advertising"
+datestamp = "1407574729"
+
+
+; Information added by Drupal.org packaging script on 2014-10-05
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "classified_advertising"
+datestamp = "1412477631"
+

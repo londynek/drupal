@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Classified Advertising Ad feature.
+ */
+
+include_once 'classified_advertising_ad.features.inc';

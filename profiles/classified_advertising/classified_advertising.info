@@ -1,0 +1,123 @@
+name = Classified Advertising
+description = A Classified Ads Distribution
+core = 7.x
+distribution_name = Classified Advertising
+exclusive = 1
+
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contact
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = statistics
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = dblog
+dependencies[] = system
+
+
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+
+; CCK
+dependencies[] = location_cck
+
+; Chaos tool suite
+dependencies[] = ctools
+
+; Context
+dependencies[] = context
+
+; Display suite
+dependencies[] = ds
+
+; Features
+dependencies[] = features
+
+; Fields
+dependencies[] = field_multiple_limit
+dependencies[] = field_group
+
+; Form Elements
+dependencies[] = hierarchical_select
+dependencies[] = hs_flatlist
+dependencies[] = hs_taxonomy
+
+; Location
+dependencies[] = gmap
+dependencies[] = gmap_location
+dependencies[] = location
+dependencies[] = location_gmap_find_address
+dependencies[] = location_entity
+dependencies[] = location_taxonomize
+dependencies[] = location_taxonomize_location
+
+;Node export
+dependencies[] = node_export
+
+; Other
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = field_formatter_settings
+dependencies[] = libraries
+dependencies[] = pathauto
+dependencies[] = realname
+dependencies[] = token
+
+; Search
+dependencies[] = search_api
+dependencies[] = search_api_db
+dependencies[] = search_api_ranges
+
+; Search Toolkit
+dependencies[] = facetapi
+dependencies[] = facetapi_pretty_paths
+
+; Sharing
+dependencies[] = sharethis
+
+; User Interface
+dependencies[] = galleryformatter
+dependencies[] = jquery_update
+dependencies[] = ckeditor
+
+;UUID
+dependencies[] = uuid
+
+; Views
+dependencies[] = views_ui
+dependencies[] = views
+dependencies[] = views_contact_form
+
+; Classified Advertising
+dependencies[] = classified_advertising_common
+dependencies[] = classified_advertising_ad
+dependencies[] = classified_advertising_ad_search
+dependencies[] = classified_advertising_user
+
+; Information added by Drupal.org packaging script on 2014-10-05
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "classified_advertising"
+datestamp = "1412477631"
+

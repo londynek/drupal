@@ -1,0 +1,15 @@
+name = "Classified Ads Notifications"
+description = "A classified ads service: notifications"
+package = Classified
+
+dependencies[] = classified
+
+core = 7.x
+php = 5.2
+
+; Information added by drupal.org packaging script on 2012-04-02
+version = "7.x-3.0"
+core = "7.x"
+project = "ed_classified"
+datestamp = "1333349450"
+

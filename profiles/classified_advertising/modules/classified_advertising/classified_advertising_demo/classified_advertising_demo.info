@@ -1,0 +1,28 @@
+name = Classified Advertising Demo
+description = Classified Advertising demonstration content.
+core = 7.x
+package = Classified Advertising
+version = 7.x-1.0
+project = classified_advertising_demo
+dependencies[] = classified_advertising_ad
+dependencies[] = classified_advertising_common
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = node_export_features
+dependencies[] = node_export
+dependencies[] = node_export_features
+dependencies[] = strongarm
+dependencies[] = uuid
+datestamp = 1407574729
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[node_export_features][] = 601ba945-95b9-449c-abfe-73c1090c03cf
+features[node_export_features][] = aa769dc1-0faf-419e-8f6b-8b4366895610
+project path = profiles/classified_advertising/modules/classified_advertising
+
+; Information added by Drupal.org packaging script on 2014-10-05
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "classified_advertising"
+datestamp = "1412477631"
+
