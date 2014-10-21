@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <location>
+    <name>New Castle</name>
+    <type>Populated place</type>
+    <country>United Kingdom</country>
+    <timezone id="Europe/London" utcoffsetMinutes="60" />
+    <location altitude="146" latitude="51.85" longitude="-2.8" geobase="geonames" geobaseid="2641680" />
+  </location>
+  <credit>
+    <!--In order to use the free weather data from yr no, you HAVE to display 
+the following text clearly visible on your web page. The text should be a 
+link to the specified URL.-->
+    <!--Please read more about our conditions and guidelines at http://om.yr.no/verdata/  English explanation at http://om.yr.no/verdata/free-weather-data/-->
+    <link text="Weather forecast from yr.no, delivered by the Norwegian Meteorological Institute and the NRK" url="http://www.yr.no/place/United_Kingdom/Wales/New_Castle/" />
+  </credit>
+  <links>
+    <link id="xmlSource" url="http://www.yr.no/place/United_Kingdom/Wales/New_Castle/forecast.xml" />
+    <link id="xmlSourceHourByHour" url="http://www.yr.no/place/United_Kingdom/Wales/New_Castle/forecast_hour_by_hour.xml" />
+    <link id="overview" url="http://www.yr.no/place/United_Kingdom/Wales/New_Castle/" />
+    <link id="hourByHour" url="http://www.yr.no/place/United_Kingdom/Wales/New_Castle/hour_by_hour" />
+    <link id="longTermForecast" url="http://www.yr.no/place/United_Kingdom/Wales/New_Castle/long" />
+  </links>
+  <meta>
+    <lastupdate>2014-10-19T04:37:53</lastupdate>
+    <nextupdate>2014-10-19T17:00:00</nextupdate>
+  </meta>
+  <sun rise="2014-10-19T07:42:23" set="2014-10-19T18:09:08" />
+  <forecast>
+    <tabular>
+      <time from="2014-10-19T11:00:00" to="2014-10-19T12:00:00" period="1">
+        <!-- Valid from 2014-10-19T11:00:00 to 2014-10-19T12:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0.1" minvalue="0" maxvalue="0.2" />
+        <!-- Valid at 2014-10-19T11:00:00 -->
+        <windDirection deg="219.4" code="SW" name="Southwest" />
+        <windSpeed mps="8.5" name="Fresh breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1010.9" />
+      </time>
+      <time from="2014-10-19T12:00:00" to="2014-10-19T18:00:00" period="2">
+        <!-- Valid from 2014-10-19T12:00:00 to 2014-10-19T18:00:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.9" minvalue="0.5" maxvalue="1.2" />
+        <!-- Valid at 2014-10-19T12:00:00 -->
+        <windDirection deg="226.2" code="SW" name="Southwest" />
+        <windSpeed mps="8.4" name="Fresh breeze" />
+        <temperature unit="celsius" value="16" />
+        <pressure unit="hPa" value="1010.9" />
+      </time>
+      <time from="2014-10-19T18:00:00" to="2014-10-20T00:00:00" period="3">
+        <!-- Valid from 2014-10-19T18:00:00 to 2014-10-20T00:00:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="mf/40n.85" />
+        <precipitation value="0.6" minvalue="0.3" maxvalue="1.0" />
+        <!-- Valid at 2014-10-19T18:00:00 -->
+        <windDirection deg="240.0" code="WSW" name="West-southwest" />
+        <windSpeed mps="6.3" name="Moderate breeze" />
+        <temperature unit="celsius" value="14" />
+        <pressure unit="hPa" value="1012.5" />
+      </time>
+      <time from="2014-10-20T00:00:00" to="2014-10-20T06:00:00" period="0">
+        <!-- Valid from 2014-10-20T00:00:00 to 2014-10-20T06:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.88" />
+        <precipitation value="0.1" minvalue="0" maxvalue="0.1" />
+        <!-- Valid at 2014-10-20T00:00:00 -->
+        <windDirection deg="243.6" code="WSW" name="West-southwest" />
+        <windSpeed mps="5.2" name="Gentle breeze" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1015.1" />
+      </time>
+      <time from="2014-10-20T06:00:00" to="2014-10-20T12:00:00" period="1">
+        <!-- Valid from 2014-10-20T06:00:00 to 2014-10-20T12:00:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.7" minvalue="0.4" maxvalue="1.0" />
+        <!-- Valid at 2014-10-20T06:00:00 -->
+        <windDirection deg="239.2" code="WSW" name="West-southwest" />
+        <windSpeed mps="4.5" name="Gentle breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1014.8" />
+      </time>
+      <time from="2014-10-20T12:00:00" to="2014-10-20T18:00:00" period="2">
+        <!-- Valid from 2014-10-20T12:00:00 to 2014-10-20T18:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0.3" minvalue="0.1" maxvalue="0.6" />
+        <!-- Valid at 2014-10-20T12:00:00 -->
+        <windDirection deg="241.2" code="WSW" name="West-southwest" />
+        <windSpeed mps="3.3" name="Light breeze" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1014.6" />
+      </time>
+      <time from="2014-10-20T18:00:00" to="2014-10-21T00:00:00" period="3">
+        <!-- Valid from 2014-10-20T18:00:00 to 2014-10-21T00:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.88" />
+        <precipitation value="0.3" minvalue="0.1" maxvalue="0.6" />
+        <!-- Valid at 2014-10-20T18:00:00 -->
+        <windDirection deg="222.3" code="SW" name="Southwest" />
+        <windSpeed mps="3.8" name="Gentle breeze" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1013.0" />
+      </time>
+      <time from="2014-10-21T00:00:00" to="2014-10-21T06:00:00" period="0">
+        <!-- Valid from 2014-10-21T00:00:00 to 2014-10-21T06:00:00 -->
+        <symbol number="5" numberEx="5" name="Rain showers" var="mf/05n.91" />
+        <precipitation value="2.0" minvalue="1.5" maxvalue="2.5" />
+        <!-- Valid at 2014-10-21T00:00:00 -->
+        <windDirection deg="211.3" code="SSW" name="South-southwest" />
+        <windSpeed mps="7.8" name="Moderate breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1008.8" />
+      </time>
+      <time from="2014-10-21T06:00:00" to="2014-10-21T12:00:00" period="1">
+        <!-- Valid from 2014-10-21T06:00:00 to 2014-10-21T12:00:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.7" minvalue="0.5" maxvalue="1.1" />
+        <!-- Valid at 2014-10-21T06:00:00 -->
+        <windDirection deg="239.4" code="WSW" name="West-southwest" />
+        <windSpeed mps="9.4" name="Fresh breeze" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="999.8" />
+      </time>
+      <time from="2014-10-21T12:00:00" to="2014-10-21T18:00:00" period="2">
+        <!-- Valid from 2014-10-21T12:00:00 to 2014-10-21T18:00:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.7" minvalue="0.2" maxvalue="1.4" />
+        <!-- Valid at 2014-10-21T12:00:00 -->
+        <windDirection deg="297.2" code="WNW" name="West-northwest" />
+        <windSpeed mps="10.1" name="Fresh breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1006.1" />
+      </time>
+      <time from="2014-10-21T19:00:00" to="2014-10-22T01:00:00" period="3">
+        <!-- Valid from 2014-10-21T19:00:00 to 2014-10-22T01:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.91" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-21T19:00:00 -->
+        <windDirection deg="280.9" code="W" name="West" />
+        <windSpeed mps="7.1" name="Moderate breeze" />
+        <temperature unit="celsius" value="9" />
+        <pressure unit="hPa" value="1017.8" />
+      </time>
+      <time from="2014-10-22T01:00:00" to="2014-10-22T07:00:00" period="0">
+        <!-- Valid from 2014-10-22T01:00:00 to 2014-10-22T07:00:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="mf/02n.95" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-22T01:00:00 -->
+        <windDirection deg="275.4" code="W" name="West" />
+        <windSpeed mps="5.0" name="Gentle breeze" />
+        <temperature unit="celsius" value="9" />
+        <pressure unit="hPa" value="1023.6" />
+      </time>
+      <time from="2014-10-22T07:00:00" to="2014-10-22T13:00:00" period="1">
+        <!-- Valid from 2014-10-22T07:00:00 to 2014-10-22T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-22T07:00:00 -->
+        <windDirection deg="275.1" code="W" name="West" />
+        <windSpeed mps="3.6" name="Gentle breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1024.7" />
+      </time>
+      <time from="2014-10-22T13:00:00" to="2014-10-22T19:00:00" period="2">
+        <!-- Valid from 2014-10-22T13:00:00 to 2014-10-22T19:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-22T13:00:00 -->
+        <windDirection deg="274.4" code="W" name="West" />
+        <windSpeed mps="3.9" name="Gentle breeze" />
+        <temperature unit="celsius" value="11" />
+        <pressure unit="hPa" value="1026.0" />
+      </time>
+      <time from="2014-10-22T19:00:00" to="2014-10-23T01:00:00" period="3">
+        <!-- Valid from 2014-10-22T19:00:00 to 2014-10-23T01:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.95" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-22T19:00:00 -->
+        <windDirection deg="226.7" code="SW" name="Southwest" />
+        <windSpeed mps="2.0" name="Light breeze" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1023.9" />
+      </time>
+      <time from="2014-10-23T01:00:00" to="2014-10-23T07:00:00" period="0">
+        <!-- Valid from 2014-10-23T01:00:00 to 2014-10-23T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-23T01:00:00 -->
+        <windDirection deg="216.0" code="SW" name="Southwest" />
+        <windSpeed mps="3.1" name="Light breeze" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1022.0" />
+      </time>
+      <time from="2014-10-23T07:00:00" to="2014-10-23T13:00:00" period="1">
+        <!-- Valid from 2014-10-23T07:00:00 to 2014-10-23T13:00:00 -->
+        <symbol number="9" numberEx="46" name="Light rain" var="46" />
+        <precipitation value="0.6" />
+        <!-- Valid at 2014-10-23T07:00:00 -->
+        <windDirection deg="202.4" code="SSW" name="South-southwest" />
+        <windSpeed mps="5.3" name="Gentle breeze" />
+        <temperature unit="celsius" value="11" />
+        <pressure unit="hPa" value="1017.9" />
+      </time>
+      <time from="2014-10-23T13:00:00" to="2014-10-23T19:00:00" period="2">
+        <!-- Valid from 2014-10-23T13:00:00 to 2014-10-23T19:00:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="02d" />
+        <precipitation value="0.1" />
+        <!-- Valid at 2014-10-23T13:00:00 -->
+        <windDirection deg="204.9" code="SSW" name="South-southwest" />
+        <windSpeed mps="6.2" name="Moderate breeze" />
+        <temperature unit="celsius" value="14" />
+        <pressure unit="hPa" value="1015.2" />
+      </time>
+      <time from="2014-10-23T19:00:00" to="2014-10-24T01:00:00" period="3">
+        <!-- Valid from 2014-10-23T19:00:00 to 2014-10-24T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-23T19:00:00 -->
+        <windDirection deg="233.5" code="SW" name="Southwest" />
+        <windSpeed mps="3.7" name="Gentle breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1013.8" />
+      </time>
+      <time from="2014-10-24T01:00:00" to="2014-10-24T07:00:00" period="0">
+        <!-- Valid from 2014-10-24T01:00:00 to 2014-10-24T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-24T01:00:00 -->
+        <windDirection deg="210.9" code="SSW" name="South-southwest" />
+        <windSpeed mps="4.1" name="Gentle breeze" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1013.4" />
+      </time>
+      <time from="2014-10-24T07:00:00" to="2014-10-24T13:00:00" period="1">
+        <!-- Valid from 2014-10-24T07:00:00 to 2014-10-24T13:00:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="1.8" />
+        <!-- Valid at 2014-10-24T07:00:00 -->
+        <windDirection deg="174.3" code="S" name="South" />
+        <windSpeed mps="4.5" name="Gentle breeze" />
+        <temperature unit="celsius" value="11" />
+        <pressure unit="hPa" value="1010.4" />
+      </time>
+      <time from="2014-10-24T13:00:00" to="2014-10-24T19:00:00" period="2">
+        <!-- Valid from 2014-10-24T13:00:00 to 2014-10-24T19:00:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="1.7" />
+        <!-- Valid at 2014-10-24T13:00:00 -->
+        <windDirection deg="186.6" code="S" name="South" />
+        <windSpeed mps="6.1" name="Moderate breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1008.0" />
+      </time>
+      <time from="2014-10-24T19:00:00" to="2014-10-25T01:00:00" period="3">
+        <!-- Valid from 2014-10-24T19:00:00 to 2014-10-25T01:00:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="1.5" />
+        <!-- Valid at 2014-10-24T19:00:00 -->
+        <windDirection deg="202.9" code="SSW" name="South-southwest" />
+        <windSpeed mps="6.7" name="Moderate breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1004.0" />
+      </time>
+      <time from="2014-10-25T01:00:00" to="2014-10-25T07:00:00" period="0">
+        <!-- Valid from 2014-10-25T01:00:00 to 2014-10-25T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-25T01:00:00 -->
+        <windDirection deg="232.6" code="SW" name="Southwest" />
+        <windSpeed mps="4.2" name="Gentle breeze" />
+        <temperature unit="celsius" value="11" />
+        <pressure unit="hPa" value="1006.9" />
+      </time>
+      <time from="2014-10-25T07:00:00" to="2014-10-25T13:00:00" period="1">
+        <!-- Valid from 2014-10-25T07:00:00 to 2014-10-25T13:00:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="1.8" />
+        <!-- Valid at 2014-10-25T07:00:00 -->
+        <windDirection deg="185.0" code="S" name="South" />
+        <windSpeed mps="1.7" name="Light breeze" />
+        <temperature unit="celsius" value="9" />
+        <pressure unit="hPa" value="1006.7" />
+      </time>
+      <time from="2014-10-25T13:00:00" to="2014-10-25T19:00:00" period="2">
+        <!-- Valid from 2014-10-25T13:00:00 to 2014-10-25T19:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0.5" />
+        <!-- Valid at 2014-10-25T13:00:00 -->
+        <windDirection deg="229.8" code="SW" name="Southwest" />
+        <windSpeed mps="6.8" name="Moderate breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1007.5" />
+      </time>
+      <time from="2014-10-25T19:00:00" to="2014-10-26T01:00:00" period="3">
+        <!-- Valid from 2014-10-25T19:00:00 to 2014-10-26T01:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.05" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-25T19:00:00 -->
+        <windDirection deg="230.6" code="SW" name="Southwest" />
+        <windSpeed mps="5.2" name="Gentle breeze" />
+        <temperature unit="celsius" value="10" />
+        <pressure unit="hPa" value="1009.5" />
+      </time>
+      <time from="2014-10-26T01:00:00" to="2014-10-26T06:00:00" period="0">
+        <!-- Valid from 2014-10-26T01:00:00 to 2014-10-26T06:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.08" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-26T01:00:00 -->
+        <windDirection deg="250.6" code="WSW" name="West-southwest" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1014.3" />
+      </time>
+      <time from="2014-10-26T06:00:00" to="2014-10-26T12:00:00" period="1">
+        <!-- Valid from 2014-10-26T06:00:00 to 2014-10-26T12:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-26T06:00:00 -->
+        <windDirection deg="319.9" code="NW" name="Northwest" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1019.5" />
+      </time>
+      <time from="2014-10-26T12:00:00" to="2014-10-26T18:00:00" period="2">
+        <!-- Valid from 2014-10-26T12:00:00 to 2014-10-26T18:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-26T12:00:00 -->
+        <windDirection deg="345.7" code="NNW" name="North-northwest" />
+        <windSpeed mps="5.0" name="Gentle breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1024.5" />
+      </time>
+      <time from="2014-10-26T18:00:00" to="2014-10-27T00:00:00" period="3">
+        <!-- Valid from 2014-10-26T18:00:00 to 2014-10-27T00:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.08" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-26T18:00:00 -->
+        <windDirection deg="341.8" code="NNW" name="North-northwest" />
+        <windSpeed mps="2.5" name="Light breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1028.5" />
+      </time>
+      <time from="2014-10-27T00:00:00" to="2014-10-27T06:00:00" period="0">
+        <!-- Valid from 2014-10-27T00:00:00 to 2014-10-27T06:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.12" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-27T00:00:00 -->
+        <windDirection deg="342.7" code="NNW" name="North-northwest" />
+        <windSpeed mps="2.3" name="Light breeze" />
+        <temperature unit="celsius" value="4" />
+        <pressure unit="hPa" value="1032.0" />
+      </time>
+      <time from="2014-10-27T06:00:00" to="2014-10-27T12:00:00" period="1">
+        <!-- Valid from 2014-10-27T06:00:00 to 2014-10-27T12:00:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="02d" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-27T06:00:00 -->
+        <windDirection deg="346.4" code="NNW" name="North-northwest" />
+        <windSpeed mps="1.9" name="Light breeze" />
+        <temperature unit="celsius" value="3" />
+        <pressure unit="hPa" value="1033.5" />
+      </time>
+      <time from="2014-10-27T12:00:00" to="2014-10-27T18:00:00" period="2">
+        <!-- Valid from 2014-10-27T12:00:00 to 2014-10-27T18:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-27T12:00:00 -->
+        <windDirection deg="356.7" code="N" name="North" />
+        <windSpeed mps="2.1" name="Light breeze" />
+        <temperature unit="celsius" value="11" />
+        <pressure unit="hPa" value="1035.1" />
+      </time>
+      <time from="2014-10-27T18:00:00" to="2014-10-28T00:00:00" period="3">
+        <!-- Valid from 2014-10-27T18:00:00 to 2014-10-28T00:00:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="mf/02n.12" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-27T18:00:00 -->
+        <windDirection deg="23.6" code="NNE" name="North-northeast" />
+        <windSpeed mps="1.4" name="Light air" />
+        <temperature unit="celsius" value="9" />
+        <pressure unit="hPa" value="1035.0" />
+      </time>
+      <time from="2014-10-28T00:00:00" to="2014-10-28T06:00:00" period="0">
+        <!-- Valid from 2014-10-28T00:00:00 to 2014-10-28T06:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.15" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-28T00:00:00 -->
+        <windDirection deg="357.3" code="N" name="North" />
+        <windSpeed mps="2.0" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1035.4" />
+      </time>
+      <time from="2014-10-28T06:00:00" to="2014-10-28T12:00:00" period="1">
+        <!-- Valid from 2014-10-28T06:00:00 to 2014-10-28T12:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-28T06:00:00 -->
+        <windDirection deg="10.9" code="N" name="North" />
+        <windSpeed mps="2.4" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1034.7" />
+      </time>
+      <time from="2014-10-28T12:00:00" to="2014-10-28T18:00:00" period="2">
+        <!-- Valid from 2014-10-28T12:00:00 to 2014-10-28T18:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-28T12:00:00 -->
+        <windDirection deg="39.1" code="NE" name="Northeast" />
+        <windSpeed mps="3.2" name="Light breeze" />
+        <temperature unit="celsius" value="10" />
+        <pressure unit="hPa" value="1034.5" />
+      </time>
+      <time from="2014-10-28T18:00:00" to="2014-10-29T00:00:00" period="3">
+        <!-- Valid from 2014-10-28T18:00:00 to 2014-10-29T00:00:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="mf/02n.15" />
+        <precipitation value="0" />
+        <!-- Valid at 2014-10-28T18:00:00 -->
+        <windDirection deg="30.9" code="NNE" name="North-northeast" />
+        <windSpeed mps="2.8" name="Light breeze" />
+        <temperature unit="celsius" value="9" />
+        <pressure unit="hPa" value="1032.4" />
+      </time>
+    </tabular>
+  </forecast>
+</weatherdata>
